@@ -52,6 +52,7 @@ dependencies {
     runtime 'commons-logging:commons-logging:1.1.1' // purepos
     runtime 'org.apache.commons:commons-lang3:3.4' // purepos
     runtime(name: 'magyarlanc-resource', version: '3.0')
+    runtime(name: 'magyarlanc-dep-resource', version: '3.0')
 }
 
 javadoc {
