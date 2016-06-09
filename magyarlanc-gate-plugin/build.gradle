@@ -1,0 +1,95 @@
+plugins {
+    id 'pl.allegro.tech.build.axion-release' version '1.2.0'
+}
+
+apply plugin: 'java'
+apply plugin: 'distribution'
+apply plugin: 'maven-publish'
+
+scmVersion { versionCreator 'versionWithBranch' }
+project.version = scmVersion.version
+project.group 'hu.u_szeged'
+
+configurations {
+    resource
+    provided    
+    testCompile.extendsFrom(provided)
+    compile.exclude group: 'log4j'
+}
+
+sourceCompatibility = '1.8'
+compileJava.options.encoding = 'UTF-8'
+
+sourceSets {
+    main { compileClasspath += configurations.provided }
+    test { compileClasspath += configurations.provided }
+}
+
+repositories {
+    mavenCentral()
+    // Remove below after refactored magyarlanc libs
+    flatDir { dirs "${project(':magyarlanc').projectDir}/lib" }
+    ivy {
+        // https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar
+        artifactPattern 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/[organisation]/[artifact]-[revision](.[ext])'
+    }
+}
+
+publishing {
+    publications {
+        gatePlugin(MavenPublication) {
+            artifact(distZip)
+        }        
+    }
+}
+
+def resourcesDir = "$buildDir/resources"
+
+classes.doFirst {    
+    copy {
+        from configurations.resource
+        into resourcesDir
+    }    
+}
+
+clean {
+    delete resourcesDir
+}
+
+test {
+    maxHeapSize = "4G"
+}
+
+dependencies {
+    compile project(':magyarlanc')
+    compile 'org.slf4j:slf4j-log4j12:1.7.12'
+    
+    provided 'uk.ac.gate:gate-core:8.1'
+    
+    testCompile 'junit:junit:4.10'
+}
+
+distributions {   
+    main {
+        contents {
+            from jar
+            from('src/dist/creole.xml') {
+                expand(gradle: this)
+            }
+            into('resources') {
+                from 'src/dist/resources'
+                from resourcesDir
+            }
+            into('src') {
+                from 'src/main/java'
+                from 'src/main/resources'
+            }
+            into('lib') {
+                from configurations.runtime
+            }
+            into('docs/javadoc') {
+                from javadoc
+            }
+        }
+    }
+}

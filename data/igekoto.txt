@@ -1,0 +1,116 @@
+R##lemma=abba|SubPOS=p|Deg=none## abba	Pd3-sx	abba	az	PRON	PronType=Dem|Person=3|Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=agyon|SubPOS=p|Deg=none## agyon	Nn-sp	agyon	agy	NOUN	Number=Sing|Case=Sup|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=alá|SubPOS=p|Deg=none## alá	Rxp	alá	alá	ADV	PronType=Default|Degree=Pos
+R##lemma=által|SubPOS=p|Deg=none## által	St	által	által	ADP	_
+R##lemma=alul|SubPOS=p|Deg=none## alul	Rxp	alul	alul	ADV	PronType=Default|Degree=Pos
+R##lemma=át|SubPOS=p|Deg=none## át	Rx	át	át	ADV	PronType=Default|Degree=None
+R##lemma=át.|SubPOS=p|Deg=none## át.	Rx	át.	át	ADV	PronType=Default|Degree=None
+R##lemma=át|SubPOS=p|Deg=none## Át	Rx				
+R##lemma=àt|SubPOS=p|Deg=none## àt	Rx	àt	át	ADV	PronType=Default|Degree=None
+R##lemma=at|SubPOS=p|Deg=none## at	Rx	at	át	ADV	PronType=Default|Degree=None
+R##lemma=bele|SubPOS=p|Deg=none## bele	Pp3-sx	bele	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=bele|SubPOS=p|Deg=none## Bele	Pp3-sx				
+R##lemma=belé|SubPOS=p|Deg=none## belé	Pp3-sx	belé	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=be|SubPOS=p|Deg=none## be	Rxp	be	be	ADV	PronType=Default|Degree=Pos
+R##lemma=be|SubPOS=p|Deg=none## Be	Rxp				
+R##lemma=cserben|SubPOS=p|Deg=none## cserben	Nn-s2	cserben	cser	NOUN	Number=Sing|Case=Ine|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=egybe|SubPOS=p|Deg=none## egybe	Mc-sxl	egybe	egy	NUM	NumType=Card|Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=egyet|SubPOS=p|Deg=none## egyet	Mc-sal	egyet	egy	NUM	NumType=Card|Number=Sing|Case=Acc|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=együtt|SubPOS=p|Deg=none## együtt	Rx	együtt	együtt	ADV	PronType=Default|Degree=None
+R##lemma=el-el|SubPOS=p|Deg=none## el-el	Rx	el-el	el-el	ADV	PronType=Default|Degree=None
+R##lemma=ellen|SubPOS=p|Deg=none## ellen	St	ellen	ellen	ADP	_
+R##lemma=ellent|SubPOS=p|Deg=none## ellent	Nn-sa	ellent	ellen	NOUN	Number=Sing|Case=Acc|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=előre|SubPOS=p|Deg=none## előre	Rxp	előre	előre	ADV	PronType=Default|Degree=Pos
+R##lemma=elő|SubPOS=p|Deg=none## elő	Rxp	elő	elő	ADV	PronType=Default|Degree=Pos
+R##lemma=el|SubPOS=p|Deg=none## el	Rx	el	el	ADV	PronType=Default|Degree=None
+R##lemma=e|SubPOS=p|Deg=none## e	Rx	e	el	ADV	PronType=Default|Degree=None
+R##lemma=el.|SubPOS=p|Deg=none## el.	Rx	el.	el	ADV	PronType=Default|Degree=None
+R##lemma=el|SubPOS=p|Deg=none## El	Rx				
+R##lemma=el|SubPOS=p|Deg=none## EL	Rx				
+R##lemma=észre|SubPOS=p|Deg=none## észre	Nn-ss	észre	ész	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=észre|SubPOS=p|Deg=none## Észre	Nn-ss				
+R##lemma=félbe|SubPOS=p|Deg=none## félbe	Mf-sxl	félbe	fél	NUM	NumType=Frac|Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=félre|SubPOS=p|Deg=none## félre	Mf-ssl	félre	fél	NUM	NumType=Frac|Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=fére|SubPOS=p|Deg=none## fére	Mf-ssl	fére	fél	NUM	NumType=Frac|Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=fel|SubPOS=p|Deg=none## fel	Rxp	fel	fel	ADV	PronType=Default|Degree=Pos
+R##lemma=fel|SubPOS=p|Deg=none## Fel	Rxp				
+R##lemma=felül|SubPOS=p|Deg=none## felül	Rx	felül	felül	ADV	PronType=Default|Degree=None
+R##lemma=fenn|SubPOS=p|Deg=none## fenn	Rxp	fenn	fenn	ADV	PronType=Default|Degree=Pos
+R##lemma=föl-le|SubPOS=p|Deg=none## föl-le	Rxp	föl-le	föl-le	ADV	PronType=Default|Degree=Pos
+R##lemma=föl|SubPOS=p|Deg=none## föl	Rxp	föl	föl	ADV	PronType=Default|Degree=Pos
+R##lemma=hátra|SubPOS=p|Deg=none## hátra	Rxp	hátra	hátra	ADV	PronType=Default|Degree=Pos
+R##lemma=hátra|SubPOS=p|Deg=none## Hátra	Rxp				
+R##lemma=haza|SubPOS=p|Deg=none## haza	Rx	haza	haza	ADV	PronType=Default|Degree=None
+R##lemma=haza|SubPOS=p|Deg=none## Haza	Rx				
+R##lemma=helyben|SubPOS=p|Deg=none## helyben	Nn-s2	helyben	hely	NOUN	Number=Sing|Case=Ine|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=helyre|SubPOS=p|Deg=none## helyre	Nn-ss	helyre	hely	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=hejre|SubPOS=p|Deg=none## hejre	Nn-ss	hejre	hely	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=helyt|SubPOS=p|Deg=none## helyt	Nn-sa	helyt	hely	NOUN	Number=Sing|Case=Acc|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=hozzá|SubPOS=p|Deg=none## hozzá	Pp3-st	hozzá	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=All|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=hozá|SubPOS=p|Deg=none## hozá	Pp3-st	hozá	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=All|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=hozzá|SubPOS=p|Deg=none## Hozzá	Pp3-st				
+R##lemma=ide|SubPOS=p|Deg=none## ide	Rdp	ide	ide	ADV	PronType=Dem|Degree=Pos
+R##lemma=jól|SubPOS=p|Deg=none## jól	Rxp	jól	jól	ADV	PronType=Default|Degree=Pos
+R##lemma=jóvá|SubPOS=p|Deg=none## jóvá	Afp-sy	jóvá	jó	ADJ	VerbForm=None|NumType=None|Degree=Pos|Number=Sing|Case=Tra|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=keresztül|SubPOS=p|Deg=none## keresztül	St	keresztül	keresztül	ADP	_
+R##lemma=kétségbe|SubPOS=p|Deg=none## kétségbe	Nn-sx	kétségbe	kétség	NOUN	Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=kétségbe|SubPOS=p|Deg=none## Kétségbe	Nn-sx				
+R##lemma=ketté|SubPOS=p|Deg=none## ketté	Mc-syl	ketté	két	NUM	NumType=Card|Number=Sing|Case=Tra|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=kinn|SubPOS=p|Deg=none## kinn	Rxp	kinn	kinn	ADV	PronType=Default|Degree=Pos
+R##lemma=ki|SubPOS=p|Deg=none## ki	Rxp	ki	ki	ADV	PronType=Default|Degree=Pos
+R##lemma=ki|SubPOS=p|Deg=none## Ki	Rxp				
+R##lemma=kölcsön|SubPOS=p|Deg=none## kölcsön	Nn-sn	kölcsön	kölcsön	NOUN	Number=Sing|Case=Nom|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=körbe|SubPOS=p|Deg=none## körbe	Nn-sx	körbe	kör	NOUN	Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=körül|SubPOS=p|Deg=none## körül	St	körül	körül	ADP	_
+R##lemma=közbe|SubPOS=p|Deg=none## közbe	Rx	közbe	közbe	ADV	PronType=Default|Degree=None
+R##lemma=közre|SubPOS=p|Deg=none## közre	Nn-ss	közre	köz	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=közzé|SubPOS=p|Deg=none## közzé	Nn-sy	közzé	köz	NOUN	Number=Sing|Case=Tra|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=külön|SubPOS=p|Deg=none## külön	Rx	külön	külön	ADV	PronType=Default|Degree=None
+R##lemma=le|SubPOS=p|Deg=none## le	Rxp	le	le	ADV	PronType=Default|Degree=Pos
+R##lemma=le|SubPOS=p|Deg=none## Le	Rxp				
+R##lemma=létre|SubPOS=p|Deg=none## létre	Nn-ss	létre	lét	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=meg|SubPOS=p|Deg=none## meg	Rp	meg	meg	PART	_
+R##lemma=meg:net|SubPOS=p|Deg=none## meg:net	Rp	meg:net	meg	PART	_
+R##lemma=m?g|SubPOS=p|Deg=none## m?g	Rp	m?g	meg	PART	_
+R##lemma=meg|SubPOS=p|Deg=none## Meg	Rp				
+R##lemma=mellé|SubPOS=p|Deg=none## mellé	Pp3-sn	mellé	mellé	PRON	PronType=Prs|Person=3|Number=Sing|Case=Nom|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=neki|SubPOS=p|Deg=none## neki	Pp3-sd	neki	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Dat|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=nyilván|SubPOS=p|Deg=none## nyilván	Rx	nyilván	nyilván	ADV	PronType=Default|Degree=None
+R##lemma=oda|SubPOS=p|Deg=none## oda	Rdp	oda	oda	ADV	PronType=Dem|Degree=Pos
+R##lemma=oda|SubPOS=p|Deg=none## Oda	Rdp				
+R##lemma=ott|SubPOS=p|Deg=none## ott	Rd	ott	ott	ADV	PronType=Dem|Degree=None
+R##lemma=össze|SubPOS=p|Deg=none## össze	Rxp	össze	össze	ADV	PronType=Default|Degree=Pos
+R##lemma=ösze|SubPOS=p|Deg=none## ösze	Rxp	ösze	össze	ADV	PronType=Default|Degree=Pos
+R##lemma=ossze|SubPOS=p|Deg=none## ossze	Rxp	ossze	össze	ADV	PronType=Default|Degree=Pos
+R##lemma=össze|SubPOS=p|Deg=none## Össze	Rxp				
+R##lemma=rá|SubPOS=p|Deg=none## rá	Pp3-ss	rá	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=reá|SubPOS=p|Deg=none## reá	Pp3-ss	reá	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=ra|SubPOS=p|Deg=none## ra	Pp3-ss	ra	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=rajta|SubPOS=p|Deg=none## rajta	Pp3-sp	rajta	ő	PRON	PronType=Prs|Person=3|Number=Sing|Case=Sup|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=rá|SubPOS=p|Deg=none## Rá	Pp3-ss				
+R##lemma=rendre|SubPOS=p|Deg=none## rendre	Nn-ss	rendre	rend	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=rosszul|SubPOS=p|Deg=none## rosszul	Afp-sw	rosszul	rossz	ADJ	VerbForm=None|NumType=None|Degree=Pos|Number=Sing|Case=Ess|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=szembe|SubPOS=p|Deg=none## szembe	Rx	szembe	szembe	ADV	PronType=Default|Degree=None
+R##lemma=szerte|SubPOS=p|Deg=none## szerte	Rx	szerte	szerte	ADV	PronType=Default|Degree=None
+R##lemma=szét|SubPOS=p|Deg=none## szét	Rp	szét	szét	ADV	PronType=Default|Degree=None
+R##lemma=szét.|SubPOS=p|Deg=none## szét.	Rp	szét.	szét	ADV	PronType=Default|Degree=None
+R##lemma=tele|SubPOS=p|Deg=none## tele	Rx	tele	tele	ADV	PronType=Default|Degree=None
+R##lemma=tovább|SubPOS=p|Deg=none## tovább	Rx	tovább	tovább	ADV	PronType=Default|Degree=None
+R##lemma=tovább|SubPOS=p|Deg=none## Tovább	Rx				
+R##lemma=tönkre|SubPOS=p|Deg=none## tönkre	Nn-ss	tönkre	tönk	NOUN	Number=Sing|Case=Sub|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=túl|SubPOS=p|Deg=none## túl	Rx	túl	túl	ADV	PronType=Default|Degree=None
+R##lemma=újra|SubPOS=p|Deg=none## újra	Afp-ss	újra	újra	ADV	PronType=Default|Degree=None
+R##lemma=újjá|SubPOS=p|Deg=none## újjá	Afp-sw	újjá	új	ADJ	VerbForm=None|NumType=None|Degree=Pos|Number=Sing|Case=Tra|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=utána|SubPOS=p|Deg=none## utána	Pp3-sn	utána	után	PRON	PronType=Prs|Person=3|Number=Sing|Case=Nom|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=utána|SubPOS=p|Deg=none## Utána	Pp3-sn				
+R##lemma=utol|SubPOS=p|Deg=none## utol	Rp	utol	utol	PART	_
+R##lemma=végbe|SubPOS=p|Deg=none## végbe	Nn-sx	végbe	vég	NOUN	Number=Sing|Case=Ill|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=véghez|SubPOS=p|Deg=none## véghez	Nn-st	véghez	vég	NOUN	Number=Sing|Case=All|Number[psor]=None|Person[psor]=None|Number[psed]=None
+R##lemma=véghez|SubPOS=p|Deg=none## Véghez	Nn-st				
+R##lemma=végig|SubPOS=p|Deg=none## végig	Rx	végig	végig	ADV	PronType=Default|Degree=None
+R##lemma=vegig|SubPOS=p|Deg=none## vegig	Rx	vegig	végig	ADV	PronType=Default|Degree=None
+R##lemma=végre|SubPOS=p|Deg=none## végre	Rx	végre	végre	ADV	PronType=Default|Degree=None
+R##lemma=vissza|SubPOS=p|Deg=none## vissza	Rxp	vissza	vissza	ADV	PronType=Default|Degree=Pos
+R##lemma=vissza|SubPOS=p|Deg=none## Vissza	Rxp				
+R##lemma=visza|SubPOS=p|Deg=none## visza	Rxp	visza	vissza	ADV	PronType=Default|Degree=Pos
+R##lemma=viszont|SubPOS=p|Deg=none## viszont	Rx	viszont	viszont	ADV	PronType=Default|Degree=None

@@ -1,0 +1,14 @@
+<!-- creole.xml magyarlanc-gate-plugin -->
+<!-- Adam Kulcsar -->
+
+<!--
+This file just references the JAR file that contains the compiled resource.
+Configuration is contained in the @CreoleResource annotation on implementation classes
+-->
+
+<CREOLE-DIRECTORY>
+    <JAR SCAN="true">${gradle.jar.archiveName}</JAR>
+    <% gradle.configurations.runtime.each { lib -> %>
+    <JAR>lib/$lib.name</JAR>
+    <% } %>
+</CREOLE-DIRECTORY>

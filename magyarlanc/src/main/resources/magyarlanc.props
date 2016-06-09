@@ -1,0 +1,58 @@
+##############################
+# magyarlanc properties file #
+##############################
+
+# default encoding
+encoding = utf-8
+
+# SzK corpus
+corpus = szk.corpus
+
+# GUI init sentence
+gui_init_sentence = Használjuk bátran az eszközt szegmentálásra, morfológiai és szintaktikai elemzésre!
+
+###########
+# purepos #
+###########
+
+# purepos model file
+purepos_model = szk.purepos.model
+
+# can purepos uses morphological analyzer
+purepos_use_morph = true
+
+# purepos max sentence length
+purepos_max_sentence_length = 500
+
+########
+# mate #
+########
+
+# mate model file
+dep_parser_model = szk.mate.model
+
+# mate max sentence length
+dep_max_sentence_length = 50
+
+############
+# berkeley #
+############
+
+# berkeley model file
+const_parser_model = szk.const.model
+
+# 
+const_num_of_grammars = 4
+
+#
+const_write_incorrect_tree = false
+
+##############
+# webservice #
+##############
+
+# wsld location
+wsdl = http://rgai2:8181/magyarlanc/magyarlanc?wsdl
+
+# tree visualizer in gui: pta|berkeley
+const_visualizer = berkeley

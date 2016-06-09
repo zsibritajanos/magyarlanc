@@ -1,0 +1,109 @@
+plugins {
+    id 'pl.allegro.tech.build.axion-release' version '1.2.0'
+}
+
+apply plugin: 'application'
+apply plugin: 'maven-publish'
+
+scmVersion { versionCreator 'versionWithBranch' }
+project.version = scmVersion.version
+project.group 'hu.u_szeged'
+
+mainClassName="${project.group}.${project.name}.Magyarlanc"
+
+configurations {
+    provided
+}
+
+sourceCompatibility = '1.8'
+compileJava.options.encoding = 'UTF-8'
+
+sourceSets {
+    main { compileClasspath += configurations.provided }
+    test { compileClasspath += configurations.provided }
+}
+
+repositories {
+    mavenCentral()
+    flatDir { dirs "lib" }    
+    ivy {
+        // https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar
+        artifactPattern 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/[organisation]/[artifact]-[revision](.[ext])'
+    }   
+}
+
+dependencies {
+    compile 'com.ibm.icu:icu4j:3.6.1'
+    compile 'commons-io:commons-io:2.4'
+    compile 'log4j:log4j:1.2.9'
+    compile 'mate-tools:anna:3.61' // compile 'com.googlecode.mate-tools:anna:3.5'
+    compile 'org.riedelcastro:whatswrong:0.2.4'
+    compile(name: 'BerkeleyProdParser') // compile 'edu.berkeley.nlp:berkeleyparser:r32'
+    compile(name: 'CommonUtil')
+    compile(name: 'ParseTreeWW') // Is this it? https://www.eecis.udel.edu/~trnka/pta/
+    compile(name: 'ThreadSafeMorphadorner') // Splitter archive
+    compile(name: 'purepos')
+    compile(name: 'rfsa')
+        
+    runtime 'args4j:args4j:2.0.16' // purepos
+    runtime 'com.google.guava:guava:r09' // purepos
+    runtime 'commons-configuration:commons-configuration:1.9' // purepos
+    runtime 'commons-lang:commons-lang:2.6' // purepos
+    runtime 'commons-logging:commons-logging:1.1.1' // purepos
+    runtime 'org.apache.commons:commons-lang3:3.4' // purepos
+    runtime(name: 'magyarlanc-resource', version: '3.0')
+}
+
+javadoc {
+    failOnError = false
+}
+
+jar {
+    manifest {
+        attributes(
+            "Implementation-Title": "${project.group}.${project.name}",
+            "Implementation-Version": project.version
+        )
+    }
+}
+
+task fatJar(type: Jar) {
+    classifier = 'standalone'
+    manifest = jar.manifest
+    manifest.attributes("Main-Class": mainClassName)
+    from { configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    manifest = jar.manifest
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    manifest = jar.manifest
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+    archives fatJar
+}
+
+publishing {
+    repositories {
+        maven {
+            url distsDir
+        }
+    }
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            artifact sourcesJar
+            artifact javadocJar
+        }
+    }
+}

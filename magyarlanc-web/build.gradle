@@ -1,0 +1,25 @@
+plugins {
+    id 'pl.allegro.tech.build.axion-release' version '1.2.0'
+}
+
+apply plugin: 'war'
+
+scmVersion { versionCreator 'versionWithBranch' }
+project.version = scmVersion.version
+project.group 'hu.u_szeged'
+
+sourceCompatibility = '1.8'
+compileJava.options.encoding = 'UTF-8'
+
+dependencies {
+    
+}
+
+war {
+    manifest {
+        attributes(
+            "Implementation-Title": "${project.group}.${project.name}",
+            "Implementation-Version": project.version
+        )
+    }
+}

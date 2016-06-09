@@ -1,0 +1,24 @@
+1	A	a	DET     Definite=Def|PronType=Art	3	DET     (ROOT(CP(NP(ADJP(NP*
+2	Nyelvtechnológiai	nyelvtechnológiai	ADJ     Case=Nom|Degree=Pos|Number=Sing 3	ATT     (ADJP*)
+3	Csoportban      csoport NOUN    Case=Ine|Number=Sing    4	OBL     *)
+4	zajló   zajló   ADJ     Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	5	ATT	*)
+5	kutatásokhoz    kutatás NOUN    Case=All|Number=Plur    6	OBL	*)
+6	fiatal  fiatal  ADJ	Case=Nom|Degree=Pos|Number=Sing 9	ATT	(NP(NP(ADJP(ADJP*)
+7	és	 és	 CONJ    _	6	CONJ    (C0*)
+8	tapasztalt	 tapasztalt	 ADJ	Case=Nom|Degree=Pos|Number=Sing 7	COORD   (ADJP*))
+9	kutatók kutató  NOUN    Case=Nom|Number=Plur    21	 SUBJ    *)
+10	,	,	PUNCT_	9	PUNCT*
+11	PhD	phd	PROPNCase=Nom|Number=Sing9	APPEND(NP*)
+12	-	-	PUNCT_	11	PUNCT*
+13	és	és	CONJ_	9	CONJ(C0*)
+14	MSc-hallgatókMSc-hallgatóNOUNCase=Nom|Number=Plur13	COORD(NP*)
+15	,	,	PUNCT_	14	PUNCT*
+16	programozók	programozó	NOUNCase=Nom|Number=Plur14	COORD(NP*)
+17	és	és	CONJ_	16	CONJ(C0*)
+18	nyelvészek	nyelvész	NOUNCase=Nom|Number=Plur17	COORD(NP*))
+19	is	is	CONJ_	18	CONJ(C0*)
+20	egyaránt	egyaránt	ADV	_	21	MODE(ADVP*)
+21	hozzájárulnakhozzájárul	VERBDefinite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act0	ROOT(V_(V0*))
+22	tudásuktudásNOUNCase=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=321	SUBJ(NP*)
+23	legjavával	legjavaNOUNCase=Ins|Number=Sing21	OBL	(NP*)
+24	.	.	PUNCT_	0	PUNCT*))

@@ -1,0 +1,1 @@
+1	A	a	DET	Definite=Def|PronType=Art	3	DET	(ROOT(CP(NP(ADJP(NP*

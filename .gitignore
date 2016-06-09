@@ -1,0 +1,9 @@
+/.codepro/
+/.gradle/
+/.idea/
+/.nb-gradle/
+/.settings/
+/nbproject/
+/magyarlanc/build/
+/magyarlanc-web/build/
+/magyarlanc-gate-plugin/build/
